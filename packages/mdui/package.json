@@ -1,0 +1,56 @@
+{
+  "name": "@bashchkov/mdui",
+  "version": "0.0.3",
+  "author": {
+    "name": "Mikhail Bashchkov",
+    "email": "mikhail@bashchkov.com",
+    "url": "https://bashchkov.com/"
+  },
+  "description": "Material Design UI are React components for designing and building beautiful and useful applications with Material Design.",
+  "keywords": [
+    "mdui",
+    "material-design-ui",
+    "react",
+    "react-component",
+    "material design"
+  ],
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bashchkov/material-design-ui.git",
+    "directory": "packages/mdui-components"
+  },
+  "bugs": {
+    "url": "https://github.com/bashchkov/material-design-ui/issues"
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.6",
+    "@types/react-dom": "^18.2.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tsconfig": "workspace:*",
+    "tsup": "^6.7.0",
+    "typescript": "^5.0.4"
+  },
+  "peerDependencies": {
+    "react": ">=18.2.0",
+    "react-dom": ">=18.2.0"
+  }
+}
