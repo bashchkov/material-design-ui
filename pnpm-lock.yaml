@@ -51,6 +51,9 @@ importers:
       '@bashchkov/mdui':
         specifier: workspace:*
         version: link:../../packages/mdui
+      '@bashchkov/my-lib':
+        specifier: workspace:*
+        version: link:../../packages/my-lib
       react:
         specifier: ^18.2.0
         version: 18.2.0
